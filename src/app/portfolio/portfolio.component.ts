@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Project } from '../_models/Project';
+import { Tag } from '../_models/Tag';
 
 @Component({
   selector: 'app-portfolio',
@@ -15,7 +16,7 @@ export class PortfolioComponent {
     summary: 'Test Description',
     description: '',
     projectLink: '',
-    tags: ['Angular', 'TypeScript'],
+    tags: [Tag.ANGULAR, Tag.TYPESCRIPT],
     pictures: []
   };
   // Creation de titre de page
