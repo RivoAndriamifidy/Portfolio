@@ -12,7 +12,7 @@ export class ProjectCardComponent {
 
   @Input() project = {} as Project; // Titre de card
   bsModalRef?: BsModalRef;
-
+  
   constructor(private modalService: BsModalService) { }
 
   OpenProjectModal() {
