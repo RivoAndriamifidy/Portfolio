@@ -1,4 +1,3 @@
-import { Project } from './../_models/Project';
 import { Injectable } from '@angular/core';
 import { Tag } from '../_models/Tag';
 import { Project } from '../_models/Project';
