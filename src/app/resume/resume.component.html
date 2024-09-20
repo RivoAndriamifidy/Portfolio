@@ -1,1 +1,85 @@
-<p>resume works!</p>
+<div class="container text-center">
+    <button (click)="DownloadFile()" class="btn btn-primary mb-5 mt-5 shadow border">Download PDF Resume</button>
+    
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">
+        <!-- Section Expérience Professionnelle -->
+        <accordion-group heading="Expérience Professionnelle" style="text-align: left;">
+            <div class="panel-body">
+                <h5 class="text-primary"><strong>Développeur Fullstack Senior - Java & Angular</strong></h5>
+                <p><strong>Entreprise :</strong> Tech Innovators</p>
+                <p><strong>Durée :</strong> Janvier 2022 - Présent</p>
+                <p><strong>Principales responsabilités :</strong></p>
+                <ul>
+                    <li>Développement et maintenance d'applications web utilisant Java (Spring Boot) et Angular.</li>
+                    <li>Intégration des API REST avec le frontend, garantissant un flux de données fluide entre le client et le serveur.</li>
+                    <li>Mise en œuvre de designs responsifs avec Bootstrap et CSS personnalisé, assurant la compatibilité multi-plateforme.</li>
+                    <li>Collaboration avec l'équipe UI/UX pour améliorer les interfaces utilisateurs et l'expérience utilisateur.</li>
+                    <li>Optimisation du code JavaScript pour les performances et l'évolutivité, réduisant les temps de chargement des pages de 30 %.</li>
+                </ul>
+            </div>
+    
+            <div class="panel-body">
+                <h5 class="text-primary"><strong>Développeur Frontend - Angular & Bootstrap</strong></h5>
+                <p><strong>Entreprise :</strong> Creative Solutions</p>
+                <p><strong>Durée :</strong> Mars 2020 - Décembre 2021</p>
+                <p><strong>Principales responsabilités :</strong></p>
+                <ul>
+                    <li>Développement d'interfaces utilisateur dynamiques et responsives en utilisant Angular, CSS et Bootstrap.</li>
+                    <li>Collaboration avec les développeurs backend pour intégrer les API avec le frontend.</li>
+                    <li>Assurance de la qualité du code à travers des tests unitaires (Jasmine/Karma) et des revues de code par les pairs.</li>
+                    <li>Création de composants UI réutilisables, facilitant le développement sur plusieurs projets.</li>
+                </ul>
+            </div>
+        </accordion-group>
+    
+        <!-- Section Éducation -->
+        <accordion-group heading="Éducation"  style="text-align: left;" >
+            <div class="panel-body">
+                <h5 class="text-primary"><strong>Licence en Informatique</strong></h5>
+                <p><strong>Institution :</strong> Université de Technologie</p>
+                <p><strong>Date de diplôme :</strong> Mai 2019</p>
+                <p><strong>Cours & Projets :</strong></p>
+                <ul>
+                    <li>Programmation Java avancée</li>
+                    <li>Développement Web avec Angular et JavaScript</li>
+                    <li>Projet de fin d’études : "Application Web en Temps Réel utilisant Java et Angular"</li>
+                </ul>
+            </div>
+        </accordion-group>
+    
+        <!-- Section Certifications -->
+        <accordion-group heading="Certifications" style="text-align: left;" >
+            <div class="panel-body">
+                <h5 class="text-primary"><strong>Certification Java SE 8 Programmer</strong></h5>
+                <p><strong>Institution :</strong> Oracle</p>
+                <p><strong>Année :</strong> 2020</p>
+            </div>
+    
+            <div class="panel-body">
+                <h5 class="text-primary"><strong>Certification Développeur Angular</strong></h5>
+                <p><strong>Institution :</strong> Udemy</p>
+                <p><strong>Année :</strong> 2021</p>
+            </div>
+        </accordion-group>
+    
+        <!-- Section Compétences -->
+        <accordion-group heading="Compétences" style="text-align: left;" >
+            <div class="panel-body">
+                <ul>
+                    <li><strong>Langages de programmation :</strong> Java, JavaScript, TypeScript</li>
+                    <li><strong>Frontend :</strong> Angular, HTML, CSS, Bootstrap</li>
+                    <li><strong>Backend :</strong> Spring Boot, APIs RESTful</li>
+                    <li><strong>Bases de données :</strong> MySQL, MongoDB</li>
+                    <li><strong>Contrôle de version :</strong> Git, GitHub</li>
+                    <li><strong>Tests :</strong> Jasmine, Karma, JUnit</li>
+                </ul>
+            </div>
+        </accordion-group>
+    </accordion>
+    </div>
+
+    
+    
+    
+</div>
