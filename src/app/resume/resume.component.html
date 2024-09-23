@@ -6,9 +6,13 @@
         <!-- Section Expérience Professionnelle -->
             <accordion-group [(isOpen)]="isWorkExperienceOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Expérience Professionnelle</div>
-                    <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div> <!--&gt; -->
-                    <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div> <!--&darr; -->
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div> <!--&gt; -->
+                        <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div> <!--&darr; -->
+                    </div>
+                    
                 </button>
                 
                 <div class="panel-body" style="text-align: left;">
@@ -40,9 +44,12 @@
             <!-- Section Éducation -->
             <accordion-group [(isOpen)]="isEducationOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Education</div>
-                    <div *ngIf="!isEducationOpen" style="color: white;">></div> <!--&gt; -->
-                    <div *ngIf="isEducationOpen" style="color: white;">v</div> <!--&darr; -->
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isEducationOpen" style="color: white;">></div> <!--&gt; -->
+                        <div *ngIf="isEducationOpen" style="color: white;">v</div> <!--&darr; -->
+                    </div>
                 </button>
                 <div class="panel-body">
                     <h5 class="text-primary"><strong>Licence en Informatique</strong></h5>
@@ -60,9 +67,13 @@
             <!-- Section Certifications -->
             <accordion-group [(isOpen)]="isCertificationsOpen">
                     <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                        <div style="visibility: hidden;">></div>
                         <div class="btn-link">Certifications</div>
-                        <div *ngIf="!isCertificationsOpen" style="color: white;">></div> <!--&gt; -->
-                        <div *ngIf="isCertificationsOpen" style="color: white;">v</div> <!--&darr; -->
+                        <div style="width: 10.95ox;">
+                            <div *ngIf="!isCertificationsOpen" style="color: white;">></div> <!--&gt; -->
+                            <div *ngIf="isCertificationsOpen" style="color: white;">v</div> <!--&darr; -->
+                        </div>
+
                     </button>
                 <div class="panel-body">
                     <h5 class="text-primary"><strong>Certification Java SE 8 Programmer</strong></h5>
@@ -80,9 +91,13 @@
             <!-- Section Compétences -->
             <accordion-group [(isOpen)]="isSkillsOpen">
                 <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;">></div>
                     <div class="btn-link">Compétences</div>
+                    <div style="width: 10.95px;">
                         <div *ngIf="!isSkillsOpen" style="color: white;">></div> <!--&gt; -->
-                    <div *ngIf="isSkillsOpen" style="color: white;">v</div> <!--&darr; -->
+                        <div *ngIf="isSkillsOpen" style="color: white;">v</div> <!--&darr; -->
+                    </div>
+                    
                 </button>
                 <div class="panel-body">
                     <ul>
